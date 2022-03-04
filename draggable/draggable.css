@@ -1,0 +1,32 @@
+* {
+  margin: 0 auto;
+}
+.container {
+  height: auto;
+  width: 1250px;
+  margin: 0 auto;
+}
+.row {
+  gap: 10px;
+  margin: 15px 0;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+.row .over {
+  border: 3px dotted red;
+}
+.draggable {
+  cursor: move;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: center;
+  border: 1px solid #ddd;
+  background-color: #1a1ad1;
+}

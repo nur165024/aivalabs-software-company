@@ -1,0 +1,36 @@
+* {
+  margin: 0 auto;
+}
+.container {
+  height: auto;
+  width: 1250px;
+  margin: 0 auto;
+}
+.row {
+  gap: 10px;
+  margin: 15px 0;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+}
+.heading h2 {
+  margin-bottom: 15px;
+  font-size: 40px;
+  font-weight: 700;
+  color: #000;
+}
+.heading h2:hover {
+  color: red;
+}
+.paragraph {
+  display: none;
+}
+
+.paragraph p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+.heading:hover .paragraph {
+  display: block;
+}

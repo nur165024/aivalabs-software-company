@@ -1,0 +1,40 @@
+* {
+  margin: 0 auto;
+}
+.container {
+  height: auto;
+  width: 1250px;
+}
+ul,
+li {
+  padding-left: 0;
+  list-style-type: none;
+}
+.row ul {
+  gap: 20px;
+  display: inline-flex;
+  margin: 15px 0;
+}
+.row ul li {
+  font-size: 20px;
+  font-weight: 600;
+  color: #000;
+}
+.row-1 {
+  text-align: right;
+}
+.colorPicker {
+  gap: 15px;
+  display: inline-flex;
+  justify-content: center;
+}
+.colorPickerItem {
+  width: 80px;
+  height: 80px;
+  display: flex;
+  color: #000;
+  cursor: pointer;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+}
